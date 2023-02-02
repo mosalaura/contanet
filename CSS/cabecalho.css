@@ -1,0 +1,48 @@
+header {
+    align-items: center;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.menu {
+    width: 30%;
+}
+
+.menu-lista {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.menu-item a {
+    color: var(--color-grey);
+    margin-left: 40px;
+    transition: 0.2s;
+}
+
+.menu-item a:hover {
+    color: var(--color-blue);
+    text-decoration: underline;
+}
+
+.menu-item:first-child a {
+    margin-left: 0;
+}
+
+.menu-item a#ativo {
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+}
+

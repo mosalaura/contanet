@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/root.css">
     <link rel="stylesheet" href="./CSS/cabecalho.css">
     <link rel="stylesheet" href="./CSS/carrossel.css">
     <link rel="stylesheet" href="./CSS/rodape.css">
@@ -14,18 +15,39 @@
 
 <body>
 
+    <header>
+        <div class="logo">
+            <img src="./img/logo/logocurto.png" alt="">
+        </div>
+
+        <nav class="menu">
+            <ul class="menu-lista">
+                <li class="menu-item"><a id="ativo" href="">Início</a></li>
+                <li class="menu-item"><a href="">Sobre nós</a></li>
+                <li class="menu-item"><a href="">Serviços</a></li>
+                <li class="menu-item"><a href="">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <div id="slideshow-carousel" data-component="slideshow">
         <div role="list">
             <div class="slide">
-                <img src="./img/nature1.jpg" alt="">
+                <img src="./img/carrossel/slide-01.jpg" alt="">
+                <h2 class="slide-titulo">Tenha contadores especialistas <br> para cuidar das rotinas da sua empresa.</h2>
+                <button class="slide-button"><a href="">Conheça os nossos serviços</a></button>
             </div>
 
             <div class="slide">
-                <img src="./img/nature2.jpg" alt="">
+                <img src="./img/carrossel/slide-02.jpg" alt="">
+                <h2 class="slide-titulo">A sua empresa organizada <br> e bem planejada financeiramente!</h2>
+                <button class="slide-button"><a href="">Conheça os nossos serviços</a></button>
             </div>
 
             <div class="slide">
-                <img src="./img/nature3.jpg" alt="">
+                <img src="./img/carrossel/slide-03.jpg" alt="">
+                <h2 class="slide-titulo" id="titulo-3">Contabilidade completa <br> para sua empresa!</h2>
+                <button class="slide-button"><a href="">Conheça os nossos serviços</a></button>
             </div>
         </div>
     </div>

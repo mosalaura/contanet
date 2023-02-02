@@ -8,13 +8,48 @@
 
   .slide {
     display: block;
-    height: 700px;
+    height: 600px;
     width: 98%;
     margin: auto;
     margin-top: 40px;
+    position: relative;
 }
 
 .slide img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+}
+
+.slide-titulo {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 3px 4px rgb(70, 70, 70);
+  font-family: Montserrat;
+}
+
+#titulo-3 {
+  color: rgb(61, 61, 61);
+  text-shadow: none;
+}
+
+.slide-button {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  padding: 15px;
+  border-radius: 8px;
+  border-style: none;
+  font-size: 1.3rem;
+  color: #ffff;
+  background-color: var(--color-blue);
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.slide-button a:visited {
+  color: #ffff;
 }
