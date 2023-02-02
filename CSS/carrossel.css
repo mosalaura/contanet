@@ -1,0 +1,20 @@
+[data-component="slideshow"] .slide {
+    display: none;
+  }
+
+  [data-component="slideshow"] .slide.active {
+    display: block;
+  }
+
+  .slide {
+    display: block;
+    height: 700px;
+    width: 98%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.slide img {
+    height: 100%;
+    width: 100%;
+}
