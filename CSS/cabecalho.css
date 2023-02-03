@@ -3,7 +3,7 @@ header {
     background-color: #f9f9f9;
     display: flex;
     justify-content: space-around;
-    padding: 2rem;
+    padding: 25px;
 }
 
 .logo {
@@ -13,7 +13,7 @@ header {
 }
 
 .logo img {
-    width: 50%;
+    width: 40%;
 }
 
 .menu {
@@ -27,6 +27,7 @@ header {
 }
 
 .menu-item a {
+    font-size: 1.1rem;
     color: var(--color-grey);
     margin-left: 40px;
     transition: 0.2s;
@@ -35,6 +36,7 @@ header {
 .menu-item a:hover {
     color: var(--color-blue);
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .menu-item:first-child a {

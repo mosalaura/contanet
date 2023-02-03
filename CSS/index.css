@@ -2,16 +2,70 @@
 
 .sec-textos {
     background-color: var(--color-blue);
-    padding: 30px 18%;
+    padding: 50px 18%;
     color: #fff;
 }
 
 .sec-textos h2 {
     margin-bottom: 15px;
+    font-size: 1.4rem;
 }
 
 .sec-textos p {
     margin-bottom: 15px;
+    font-size: 1.1rem;
 }
 
 /* SEÇÃO - SOLUÇÕES */
+
+.sec-solucoes {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.div-solucoes-titulos h1 {
+    color: var(--color-blue);
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.div-solucoes-titulos p {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+
+.div-artigos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.a-artigo {
+    padding: 3%;
+    width: 24.25%;
+}
+
+.a-artigo h4 {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    text-align: left;
+    color: var(--color-black);
+}
+
+.a-artigo p {
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.titulo-artigo {
+    display: flex;
+}
+
+.titulo-artigo span {
+    color: var(--color-black);
+    padding-right: 5px;
+}

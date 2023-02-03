@@ -1,0 +1,44 @@
+footer {
+    width: 100%;
+    background-color: var(--color-blue);
+}
+
+.sec-rodape {
+    margin: auto;
+    display: flex;
+    padding: 5% 20%;
+    color: #ffffff;
+}
+
+.sec-rodape h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.sec-rodape a {
+    color: #ffffff;
+}
+
+.sec-rodape div+div {
+    margin-left: 10%;
+}
+
+#contato {
+    width: 25%;
+}
+
+#endereco {
+    width: 25%;
+}
+
+#social {
+    width: 25%;
+}
+
+#social a {
+    font-size: 1.8rem;
+}
+
+#social a+a {
+    margin-left: 10px;
+}

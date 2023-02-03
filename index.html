@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/root.css">
     <link rel="stylesheet" href="./CSS/cabecalho.css">
@@ -16,7 +19,7 @@
 
 <body>
 
-    <!-- CABEÇALHO -->
+    <!-- CABEÇALHO - HEADER -->
     <header>
         <a href="./index.html" class="logo">
             <img src="./img/logo/logocurto.png" alt="">
@@ -69,58 +72,114 @@
 
     <!-- SEÇÃO - SOLUÇÕES -->
     <section class="sec-solucoes">
-        <h1>Soluções para sua empresa</h1>
-        <p>Conheça todos os serviços que a sua empresa terá com a gente.</p>
+        <div class="div-solucoes-titulos">
+            <h1>Soluções para sua empresa</h1>
+            <p>Conheça todos os serviços que a sua empresa terá com a gente.</p>
+        </div>
 
-        <a>
-            <article>
-                <h4>Contábil</h4>
-                <p>A sua empresa terá uma contabilidade completa, onde cuidaremos de todas as obrigações perante o governo.</p>
-            </article>
-        </a>
+        <div class="div-artigos">
+            <a class="a-artigo">
+                <article class="titulo-artigo">
+                    <span class="material-symbols-outlined">label_important</span>
+                    <h4>Contábil</h4>
+                </article>
 
-        <a>
-            <article>
-                <h4>Fiscal</h4>
-                <p>Gestão fiscal, planejamento tributário e assessoria constante para te ajudar na vida financeira da sua empresa.</p>
-            </article>
-        </a>
+                <p>A sua empresa terá uma contabilidade completa, onde cuidaremos de todas as obrigações perante o
+                    governo.</p>
+            </a>
 
-        <a>
-            <article>
-                <h4>Deptp. Pessoal (RH)</h4>
-                <p>Cuidaremos dos cálculos e emissões de folha de pagamento, 13º salário, férias, admissão/demissão, entre outros serviços.</p>
-            </article>
-        </a>
+            <a class="a-artigo">
+                <article class="titulo-artigo">
+                    <span class="material-symbols-outlined">label_important</span>
+                    <h4>Fiscal</h4>
+                </article>
 
-        <a>
-            <article>
-                <h4>Certificado Digital</h4>
+                <p>Gestão fiscal, planejamento tributário e assessoria constante para te ajudar na vida financeira da
+                    sua empresa.</p>
+            </a>
+
+            <a class="a-artigo">
+                <article class="titulo-artigo">
+                    <span class="material-symbols-outlined">label_important</span>
+                    <h4>Deptp. Pessoal (RH)</h4>
+                </article>
+
+                <p>Cuidaremos dos cálculos e emissões de folha de pagamento, 13º salário, férias, admissão/demissão,
+                    entre outros serviços.</p>
+            </a>
+
+            <a class="a-artigo">
+                <article class="titulo-artigo">
+                    <span class="material-symbols-outlined">label_important</span>
+                    <h4>Certificado Digital</h4>
+                </article>
+
                 <p>Tenha um certificado digital de forma rápida, fácl e sem burocracia. Conerse conosco.</p>
-            </article>
-        </a>
+            </a>
 
-        <a>
-            <article>
-                <h4>Perícias e Auditorías</h4>
-                <p>Dispomos de uma equipe qualificada e pronta para realizar perícias e auditorias nas áreas contábil e fiscal da sua empresa.</p>
-            </article>
-        </a>
+            <a class="a-artigo">
+                <article class="titulo-artigo">
+                    <span class="material-symbols-outlined">label_important</span>
+                    <h4>Perícias e Auditorías</h4>
+                </article>
 
-        <a>
-            <article>
-                <h4>Societário</h4>
-                <p>Efetuamos constituição e baixa de empresas, alterações, alvarás e todos os demais serviços paralegais. Terceirização do setor paralegal.</p>
-            </article>
-        </a>
+                <p>Dispomos de uma equipe qualificada e pronta para realizar perícias e auditorias nas áreas contábil e
+                    fiscal da sua empresa.</p>
+            </a>
 
-        <a>
-            <article>
-                <h4>Outros Serviços</h4>
-                <p>Nós dispomos de uma gama de outros serviços pertinentes à área contábil e administrativa. Conheça!</p>
-            </article>
-        </a>
+            <a class="a-artigo">
+                <article class="titulo-artigo">
+                    <span class="material-symbols-outlined">label_important</span>
+                    <h4>Societário</h4>
+                </article>
+
+                <p>Efetuamos constituição e baixa de empresas, alterações, alvarás e todos os demais serviços
+                    paralegais. Terceirização do setor paralegal.</p>
+            </a>
+
+            <a class="a-artigo">
+                <article class="titulo-artigo">
+                    <span class="material-symbols-outlined">label_important</span>
+                    <h4>Outros Serviços</h4>
+                </article>
+
+                <p>Nós dispomos de uma gama de outros serviços pertinentes à área contábil e administrativa. Conheça!
+                </p>
+            </a>
+        </div>
     </section>
+
+    <!-- RODAPÉ - FOOTER -->
+
+    <footer>
+        <section class="sec-rodape">
+            <div id="contato">
+                <h2>Contato</h2>
+                <a href="">
+                    <p>Telefones: (51) 3028-6872</p>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5551997974446">
+                    <p>WhatsApp: (51) 99797-4446</p>
+                </a>
+                <a href="">
+                    <p>E-mail: andre@contanetsul.com.br</p>
+                </a>
+            </div>
+
+            <div id="endereco">
+                <h2>Endereço</h2>
+                <a href="https://goo.gl/maps/Pzh5QHZv5FfxfYiMA">Av Frederico Augusto Ritter, 3601, CJ 30, bairro Central
+                    Park, Cachoeirinha, RS, CEP 94931-001
+                </a>
+            </div>
+
+            <div id="social">
+                <h2>Siga-nos nas redes sociais!</h2>
+                <a href="https://www.facebook.com/andre.machado.3517563" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/andremachado_contador/" class="fa fa-instagram"></a>
+            </div>
+        </section>
+    </footer>
 
     <script src="./JS/slideshow.js"></script>
 </body>
