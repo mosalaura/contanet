@@ -1,0 +1,17 @@
+/* SEÇÃO - TEXTOS (DO BACKGROUND AZUL) */
+
+.sec-textos {
+    background-color: var(--color-blue);
+    padding: 30px 18%;
+    color: #fff;
+}
+
+.sec-textos h2 {
+    margin-bottom: 15px;
+}
+
+.sec-textos p {
+    margin-bottom: 15px;
+}
+
+/* SEÇÃO - SOLUÇÕES */

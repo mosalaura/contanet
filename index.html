@@ -9,16 +9,18 @@
     <link rel="stylesheet" href="./CSS/root.css">
     <link rel="stylesheet" href="./CSS/cabecalho.css">
     <link rel="stylesheet" href="./CSS/carrossel.css">
+    <link rel="stylesheet" href="./CSS/index.css">
     <link rel="stylesheet" href="./CSS/rodape.css">
-    <title>Carousel</title>
+    <title>Contanet Sul</title>
 </head>
 
 <body>
 
+    <!-- CABEÇALHO -->
     <header>
-        <div class="logo">
+        <a href="./index.html" class="logo">
             <img src="./img/logo/logocurto.png" alt="">
-        </div>
+        </a>
 
         <nav class="menu">
             <ul class="menu-lista">
@@ -30,27 +32,95 @@
         </nav>
     </header>
 
+    <!-- CARROSSEL -->
     <div id="slideshow-carousel" data-component="slideshow">
         <div role="list">
             <div class="slide">
                 <img src="./img/carrossel/slide-01.jpg" alt="">
-                <h2 class="slide-titulo">Tenha contadores especialistas <br> para cuidar das rotinas da sua empresa.</h2>
-                <button class="slide-button"><a href="">Conheça os nossos serviços</a></button>
+                <h2 class="slide-titulo" id="titulo-1">Tenha contadores especialistas <br> para cuidar das rotinas da
+                    sua empresa.</h2>
+                <button class="slide-button" id="slide-btn-1"><a href="">Conheça os nossos serviços</a></button>
             </div>
 
             <div class="slide">
                 <img src="./img/carrossel/slide-02.jpg" alt="">
-                <h2 class="slide-titulo">A sua empresa organizada <br> e bem planejada financeiramente!</h2>
-                <button class="slide-button"><a href="">Conheça os nossos serviços</a></button>
+                <h2 class="slide-titulo" id="titulo-2">A sua empresa <br> organizada e bem planejada <br>
+                    financeiramente!</h2>
+                <button class="slide-button" id="slide-btn-2"><a href="">Conheça os nossos serviços</a></button>
             </div>
 
             <div class="slide">
                 <img src="./img/carrossel/slide-03.jpg" alt="">
                 <h2 class="slide-titulo" id="titulo-3">Contabilidade completa <br> para sua empresa!</h2>
-                <button class="slide-button"><a href="">Conheça os nossos serviços</a></button>
+                <button class="slide-button" id="slide-btn-3"><a href="">Conheça os nossos serviços</a></button>
             </div>
         </div>
     </div>
+
+    <!-- SEÇÃO - TEXTOS (DO BACKGROUND AZUL) -->
+    <section class="sec-textos">
+        <h2> Tenha contadores especialistas organizando e planejando a vida financeira do seu negócio.</h2>
+
+        <p>Sabemos o quanto é precioso o seu tempo empreendedor, por isso, as nossas soluções são pensadas para
+            facilitar e agilizar o seu dia.</p>
+        <p>Fazendo a contabilidade com a gente a sua empresa estará nas mãos de um time especialista, que irá cuidar de
+            todas as burocracias para que você tenha mais tempo para se dedicar na administração do seu negócio.</p>
+    </section>
+
+    <!-- SEÇÃO - SOLUÇÕES -->
+    <section class="sec-solucoes">
+        <h1>Soluções para sua empresa</h1>
+        <p>Conheça todos os serviços que a sua empresa terá com a gente.</p>
+
+        <a>
+            <article>
+                <h4>Contábil</h4>
+                <p>A sua empresa terá uma contabilidade completa, onde cuidaremos de todas as obrigações perante o governo.</p>
+            </article>
+        </a>
+
+        <a>
+            <article>
+                <h4>Fiscal</h4>
+                <p>Gestão fiscal, planejamento tributário e assessoria constante para te ajudar na vida financeira da sua empresa.</p>
+            </article>
+        </a>
+
+        <a>
+            <article>
+                <h4>Deptp. Pessoal (RH)</h4>
+                <p>Cuidaremos dos cálculos e emissões de folha de pagamento, 13º salário, férias, admissão/demissão, entre outros serviços.</p>
+            </article>
+        </a>
+
+        <a>
+            <article>
+                <h4>Certificado Digital</h4>
+                <p>Tenha um certificado digital de forma rápida, fácl e sem burocracia. Conerse conosco.</p>
+            </article>
+        </a>
+
+        <a>
+            <article>
+                <h4>Perícias e Auditorías</h4>
+                <p>Dispomos de uma equipe qualificada e pronta para realizar perícias e auditorias nas áreas contábil e fiscal da sua empresa.</p>
+            </article>
+        </a>
+
+        <a>
+            <article>
+                <h4>Societário</h4>
+                <p>Efetuamos constituição e baixa de empresas, alterações, alvarás e todos os demais serviços paralegais. Terceirização do setor paralegal.</p>
+            </article>
+        </a>
+
+        <a>
+            <article>
+                <h4>Outros Serviços</h4>
+                <p>Nós dispomos de uma gama de outros serviços pertinentes à área contábil e administrativa. Conheça!</p>
+            </article>
+        </a>
+    </section>
 
     <script src="./JS/slideshow.js"></script>
 </body>
