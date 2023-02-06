@@ -59,6 +59,13 @@
 .a-artigo p {
     font-size: 1.1rem;
     text-align: left;
+    color: var(--color-black);
+    transition: 0.3s;
+}
+
+.a-artigo p:hover {
+    color: var(--color-blue);
+    font-weight: bold;
 }
 
 .titulo-artigo {
