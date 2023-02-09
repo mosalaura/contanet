@@ -65,7 +65,6 @@
 
 .a-artigo p:hover {
     color: var(--color-blue);
-    font-weight: bold;
 }
 
 .titulo-artigo {
